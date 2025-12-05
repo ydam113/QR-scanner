@@ -20,7 +20,7 @@ export default function App() {
   const [flash, setFlash] = useState('off') // 'off' | 'on'
 
   // 서버 주소 (본인 PC IP와 포트번호 5000 확인 필수)
-  const SERVER_URL = 'http://192.168.50.98:5000/api/save-qr'
+  const SERVER_URL = 'http://192.168.1.26:5000/api/save-qr'
 
   // 중복 스캔 방지를 위한 Ref
   const isProcessing = useRef(false)
